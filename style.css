@@ -1,0 +1,108 @@
+/* Genaral page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFED;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+} 
+
+/*feed  container */
+.feed{
+    width: 700px;
+    margin-top:22px ;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*post card */
+.post-card{
+    background: #fff;
+    border-radius: 14px;
+    margin: 21px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,0.15);
+    width :500px;
+    max-width: 90%;
+    
+    
+}
+
+/* header */
+.post-header{
+    margin-bottom: 13px;
+    align-items: center;
+    display: flex;
+}
+
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+
+}
+
+.username {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.post-header p{
+    margin: 0;
+    color: gray;
+    font-size: 13px;
+
+}
+
+/* post content */
+.post-content{
+    margin-bottom: 12px;
+}
+
+.caption {
+    font-size: 15px;
+    margin: 6px 0 12px 0;
+}
+
+.post-image{
+    width: 100%;
+    border-radius: 10px;
+    object-fit:cover ;
+
+}
+
+/* post actions */
+.post-actions{
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+
+.post-actions button{
+    background-color: #9C225A;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.2s;
+}
+
+.post-actions button:hover{
+    background-color: #9C225A;
+}
+
+likeCount{
+    font-size: 13px;
+    color:#BFBBBB;
+}
+    
